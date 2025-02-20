@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name="ahmethingram",  # اسم المكتبة
-    version="0.0.4", 
+    version="0.0.5", 
     packages=find_packages(),
     install_requires=[],  # ضع المتطلبات هنا إن وجدت
     author="Ahmed Asaad",
@@ -15,6 +15,7 @@ setup(
         "Programming Language :: Python :: 3",
         "License :: OSI Approved :: MIT License",
         "Operating System :: OS Independent",
+        "شنو اني:: احبككك",
     ],
     python_requires=">=3.6",
 )
