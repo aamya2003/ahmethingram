@@ -1,0 +1,15 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+name = "ahmethingra"
+version = "0.0.9"
+description = "A sample Python package"
+long_description = "This is a long description of the package."
+long_description_content_type = "text/markdown"
+author = "Ahmed Asaad"
+author_email = "ahmadasaadmajed1@gmail.com"
+license = "MIT"
+url = "https://github.com/aamya2003/ahmethingram"
+dependencies = ["numpy", "requests"]
