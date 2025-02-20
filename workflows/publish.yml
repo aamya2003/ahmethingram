@@ -1,12 +1,12 @@
-name: Publish Package
+name: Publish to PyPI
 
 on:
   push:
     branches:
-      - master  # أو أي فرع ترغب في نشره، مثل main
+      - master
 
 jobs:
-  build:
+  publish:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout code
@@ -27,7 +27,5 @@ jobs:
           python setup.py sdist bdist_wheel
 
       - name: Upload to PyPI
-        uses: pypa/gh-action-pypi-publish@v1
-        with:
-          user: ${{ secrets.PYPI_USERNAME }}
-          password: ${{ secrets.PYPI_PASSWORD }}
+        run: |
+          twine upload dist/* -u __token__ -p ${{ secrets.PYPI_API_TOKEN }}
