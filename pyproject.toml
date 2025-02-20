@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [tool.setuptools]
 name = "ahmethingra"
-version = "0.0.10"
+version = "0.0.12"
 description = "A sample Python package"
 long_description = "This is a long description of the package."
 long_description_content_type = "text/markdown"
