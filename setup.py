@@ -1,14 +1,14 @@
 from setuptools import setup, find_packages
 
 setup(
-    name="my_simple_library",
-    version="0.1.0",
+    name="ahmethingra",  # اسم المكتبة
+    version="0.1.1",  # رقم الإصدار
     packages=find_packages(),
-    install_requires=[],
+    install_requires=[],  # ضع المتطلبات هنا إن وجدت
     author="Ahmed Asaad",
-    author_email="your_email@example.com",
-    description="مكتبة بسيطة للقيام بعمليات جمع الأرقام.",
-    url="https://github.com/your_username/my_simple_library",  # رابط GitHub
+    author_email="ahmadasaadmajed1@gmail.com",
+    description="وصف مكتبتك",
+    url="https://pypi.org/project/ahmethingra/",
     classifiers=[
         "Programming Language :: Python :: 3",
         "License :: OSI Approved :: MIT License",
