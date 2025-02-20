@@ -6,3 +6,7 @@ def add(a, b):
 
 def say(yi):
     print(yi)
+
+
+def test(value):
+    print("value is good!")

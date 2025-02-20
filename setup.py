@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name="ahmethingram",  # اسم المكتبة
-    version="0.0.1", 
+    version="0.0.2", 
     packages=find_packages(),
     install_requires=[],  # ضع المتطلبات هنا إن وجدت
     author="Ahmed Asaad",
