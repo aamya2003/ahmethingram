@@ -15,7 +15,8 @@ setup(
         "Programming Language :: Python :: 3",
         "License :: OSI Approved :: MIT License",
         "Operating System :: OS Independent",
-        "شنو اني:: احبككك",
+        "Topic :: Software Development :: Libraries :: Python Modules",
+
     ],
     python_requires=">=3.6",
 )
